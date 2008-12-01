@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE knimeNode PUBLIC "-//UNIKN//DTD KNIME Node 1.0//EN" "http://www.knime.org/Node.dtd">
+<knimeNode icon="./default.png" type="Source">
+	<name>ChemSpider</name>
+	
+	<shortDescription>
+	    Download molecular structures from ChemSpider.com.
+	</shortDescription>
+	
+	<fullDescription>
+		<intro>Downloads MDL molfiles for molecular structures based
+                  on given InChIKey's.</intro>
+	</fullDescription>
+	
+	<ports>
+		<dataIn index="0" name="In-Port name">One or more InChIKeys.</dataIn>
+		<!-- possibly more ports here-->
+		<dataOut index="0" name="Out-Port name">MDL molfiles for the given InChIKeys</dataOut>
+	</ports>
+</knimeNode>
